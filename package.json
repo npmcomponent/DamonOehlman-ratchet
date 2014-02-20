@@ -1,48 +1,10 @@
 {
-  "name": "ratchet",
+  "name": "damonoehlman-ratchet",
   "description": "CSS3 Transform Parsers and Generator",
-  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
   "version": "0.3.1",
-  "dependencies": {},
-  "devDependencies": {
-    "tape": "~2.1.0",
-    "feature": "~0.1.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/DamonOehlman/ratchet.git"
-  },
-  "bugs": {
-    "url": "http://github.com/DamonOehlman/ratchet/issues"
-  },
-  "scripts": {
-    "gendocs": "gendocs > README.md",
-    "test": "node test/all.js"
-  },
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "keywords": [
-    "css3",
-    "transform",
-    "parser"
+    "css"
   ],
-  "license": "MIT",
-  "testling": {
-    "files": "test/all.js",
-    "browsers": [
-      "ie/8..latest",
-      "firefox/16..latest",
-      "firefox/nightly",
-      "chrome/22..latest",
-      "chrome/canary",
-      "opera/12..latest",
-      "opera/next",
-      "safari/5.1..latest",
-      "ipad/6.0..latest",
-      "iphone/6.0..latest",
-      "android-browser/4.2..latest"
-    ]
-  }
+  "main": "index.js",
+  "dependencies": {}
 }
